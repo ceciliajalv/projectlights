@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head> 
+        <title>LIGHTS | Sitio Web</title>      
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600&family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="./img-logo/logo.png" sizes="64x64">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body class="bodyshort">
+        <header>
+            <h1>
+                <a href="index.html"><img src="./img-logo/logo.png" alt="Logo Skin and Earth"></a>
+                <span> LIGHTS </span>                
+           </h1>
+           <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="musica.html">Música</a></li>
+                    <li><a href="tours.html">Tour</a></li>
+                    <li><a href="merch.html">Merch</a></li>
+                    <li class="current"><a href="contacto.html">Contacto</a></li>
+                </ul>               
+            </nav> 
+        </header>           
+        <section id="contacto">
+            <h2 class="headercontact">Contactanos</h2>            
+            <form action="gracias.html" method="POST" class="formulario">
+                <fieldset>
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Tu nombre">
+                    <label for="lastName">Apellido</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Tu Apellido">
+                    <div>
+                        <input type="checkbox" name="empresa" value="si" class="check">Me contacto en representación de una empresa u organización
+                    </div>  
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" id="email" placeholder="Tu correo electronico"> 
+                    <label for="opcion_contacto">Motivo de contacto</label>
+                    <select name="opcion_contacto" id="opcion_contacto">
+                        <option>Merchandising</option>
+                        <option>Contrataciones</option>                  
+                        <option>Prensa</option>
+                        <option>Tour/VIP Packages</option>             
+                        <option>Otros</option>
+                    </select>             
+                    <div>
+                        <input type="checkbox" name="newsletter" value="si" class="check">Deseo suscribirme al newsletter
+                    </div>      
+                    <label for="asunto">Asunto</label>
+                    <input type="text" name="asunto" id="asunto" placeholder="Breve descripción del mensaje"> 
+                    <textarea name="mensaje" cols="25" rows="10" placeholder="Mensaje"></textarea> 
+                    <input type="submit" name="enviar" value="Enviar">          
+                </fieldset>
+            </form>
+            <img src="./img-sec/ligths-pc.jpg" alt="" class="formulario">            
+            <div id="contactate">
+                <h2>O podes encontrarnos también en:</h2>
+                <div>
+                    <p> 
+                        <strong>Lights</strong> <br>
+                        PO Box: Lorem ipsum dolor, sit amet<br>
+                        Teléfono: +(123)4567890 <br>
+                        E-mail: <a href="mailto:Loremipsum@lights.com">Loremipsum@lights.com</a>       
+                    </p>
+                    <p>
+                        <strong>Fueled by Ramen (label)</strong> <br>
+                        Oficina: Lorem ipsum dolor, sit amet<br>
+                        Teléfono: +(123)49876543 <br>
+                        E-mail: <a href="mailto:Loremipsum@fbr.com">Loremipsum@fbr.com</a>
+                    </p>
+                </div>
+            </div> 
+        </section>        
+        <footer>
+            <section class="footer-top">
+                <div id="social">
+                    <a href="https://www.facebook.com/lights/" target="_blank"><img src="./img-redes/Social/facebook.png" alt="Logo facebook "></a>   
+                    <a href="https://twitter.com/lights" target="_blank"><img src="./img-redes/Social/twitter.png" alt="Logo twitter"></a> 
+                    <a href="https://www.instagram.com/lights/" target="_blank"><img src="./img-redes/Social/instagram.png" alt="Logo instagram"></a> 
+                    <a href="https://www.youtube.com/channel/UCAxgvVWyrh2HvKlZNnhTFdA" target="_blank"><img src="./img-redes/Social/youtube.png" alt="Logo youtube"></a>
+                    <a href="https://open.spotify.com/artist/5pdyjBIaY5o1yOyexGIUc6" target="_blank"><img src="./img-redes/Social/spotify.png" alt="Logo spotify"></a>
+                    <a href="https://music.apple.com/us/artist/lights/275263062" target="_blank"><img src="./img-redes/Social/apple.png" alt="Logo apple"></a>       
+                </div>
+                <div id="newsletter" method="POST">
+                    <form action="newsletter.html">
+                        <input type="text" name="mailnews" placeholder="E-mail" class="mailnews"> 
+                        <input type="submit" name="suscripcion" value="Suscribirse" class="buttonnews"> 
+                    </form>
+                </div>
+            </section>  
+            <div>
+                <p> &copy; Copyright 2020 </p>
+            </div>
+        </footer>       
+    </body>
+</html>
